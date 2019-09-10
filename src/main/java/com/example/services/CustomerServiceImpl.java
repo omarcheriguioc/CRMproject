@@ -28,7 +28,7 @@ public class CustomerServiceImpl implements CustomerService {
 		return add;
 	}
 
-	// function that update a customer in the list of customers
+	// function that updates a customer in the list of customers
 	@Override
 	public Customer updateCustomer(Customer customer) {
 		// TODO Auto-generated method stub
@@ -38,7 +38,7 @@ public class CustomerServiceImpl implements CustomerService {
 		return customerTemp;
 	}
 	
-	//function that 
+	//function that deletes a customer from the customers list
 	@Override
 	public boolean deleteCustomer(Customer customer) {
 		// TODO Auto-generated method stub
